@@ -1,0 +1,10 @@
+<grupo>
+    <nombre>jorxsua</nombre>
+    <url>https://svn.riouxsvn.com/27017jorxsua</url>
+    <miembro>
+        <nombre>Camilo Suaza Gallego</nombre>
+        <codigo>201610146010</codigo>
+        <email>csuazag@eafit.edu.co</email>
+    </miembro>    
+    <mainclass clase="co.edu.eafit.st0270.s2017.jorxsua.App"/>  
+</grupo>

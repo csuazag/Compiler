@@ -1,0 +1,12 @@
+clase Elemento1 2;
+{
+  a <- 10;
+  b <- (a + 20) * 30;
+  c <- verdad;
+  solicitar Elemento1 cuando (c y no (a <= b)) {
+     a <- b;
+     c <- b + 1;
+     solicitar Elemento1 cuando (no (c)) {
+     }
+  }
+}
