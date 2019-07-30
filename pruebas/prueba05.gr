@@ -1,0 +1,8 @@
+clase Elemento1 2;
+clase Elemento2 3;
+{
+  |uno dos tres|
+  uno <- 0;
+  dos <- 1;
+  tres <- 3;
+}

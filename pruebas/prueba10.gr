@@ -1,0 +1,22 @@
+clase Elemento1 2;
+clase Elemento2 3;
+clase Elemento3 1;
+solicitar Elemento1 {
+}
+solicitar Elemento2 {
+}
+solicitar Elemento3 {
+}
+solicitar Elemento1 {
+}
+solicitar Elemento2 {
+}
+solicitar Elemento3 {
+}
+solicitar Elemento3 {
+   solicitar Elemento1 {}
+   solicitar Elemento2 {}
+   solicitar Elemento3 {}
+   solicitar Elemento2 {}
+   solicitar Elemento3 {}
+}

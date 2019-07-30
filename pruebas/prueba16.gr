@@ -1,0 +1,12 @@
+clase Elemento1 2;
+clase Elemento2 3;
+solicitar Elemento1 {
+  | e1 |
+  solicitar Elemento2 cuando e1 <= 10 {
+    | e2 |
+    mientras e2 <= 20 hacer {
+       | i j k |
+       i <- j + k;      
+    }
+  
+}

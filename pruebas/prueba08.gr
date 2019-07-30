@@ -1,0 +1,24 @@
+clase Elemento1 2;
+clase Elemento2 3;
+clase Elemento3 4;
+solicitar Elemento1 { | e1 |
+   solicitar Elemento2 { | e2 |
+      solicitar Elemento3 cuando e1 = e2 {
+         si e1 <= e2 ent {
+            si e1 = e2 ent {
+               |a|
+               a <- e1;
+               a <- e2;
+            }
+            sino {
+               | a b c |
+               a <- e1;
+               b <- e2;
+               c <- e1 = e2;
+            }
+            finsi
+         }
+         finsi
+      }
+   }
+}

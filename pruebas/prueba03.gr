@@ -1,0 +1,10 @@
+clase Elemento1 2;
+clase Elemento2 2;
+solicitar Elemento1 {
+   solicitar Elemento2 {
+     solicitar Elemento1 {
+        solicitar Elemento2 {
+        }
+     }
+   }
+}
